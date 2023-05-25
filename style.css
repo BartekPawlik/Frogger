@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ 
+.grid{
+    border: 1px solid black;
+    height: 180px;
+    width: 182px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.ending-block{
+background-color: rebeccapurple;
+}
+
+.starting-block{
+    background-color:lightblue;
+}
+
+.log-left, .log-right{
+background-color: lightcoral;
+}
+
+.car-left, .car-right{
+    background-color: lightgray;
+}
+
+h3{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    color: blueviolet;
+
+}
+h3 span{
+    color: rgb(181, 115, 243);
+}
+.start{
+    margin-top: 10px;
+    background-color: darkmagenta;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+.pause{
+    margin-top: 10px;
+    background-color: darkmagenta;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    width: 70px;
+    height: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.active{
+    display: block;
+}
+
+.inactive{
+    display: none;
+}
+
+
+
+.l1, .l2, .l3 {
+    background-color: brown;
+}
+
+.l4 , .l5{
+    background-color: lightblue;
+}
+
+.c1{
+    background-color: black;
+}
+
+.c2, .c3{
+    background-color: lightgrey;
+}
+
+.frog{
+    background-color: green;
+}
