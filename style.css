@@ -14,7 +14,7 @@ body{
 .grid{
     border: 1px solid black;
     height: 180px;
-    width: 182px;
+    width: 183px;
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
